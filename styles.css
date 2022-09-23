@@ -1,0 +1,113 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.sedans{
+
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+
+img {
+    align-self: flex-start;
+    width: 3em;
+    padding-top: 3em;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 5em;
+    text-align: center;
+    width: 8em;
+    min-height: 3em;
+}
+
+#sedans-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury-btn {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.box {
+    min-height: 30em;
+    max-width: 20em;
+
+
+}
+
+.content {
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    justify-content: center;
+    align-items: stretch;
+}
+
+  h2 {
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      color: hsl(0, 0%, 95%);
+  }
+
+  p {
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  a {
+      text-decoration: none;
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+  }
+
+  .description {
+      width: 14em;
+  }
+  #sedans-btn:active {
+      background-color: hsl(31, 77%, 52%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+  }
+
+  #suvs-btn:active {
+      background-color: hsl(184, 100%, 22%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+
+  }
+
+  #luxury-btn:active {
+      background-color: hsl(179, 100%, 13%);
+      color: hsl(0, 0%, 95%);
+      border: 2px solid hsl(0, 0%, 95%);
+}
